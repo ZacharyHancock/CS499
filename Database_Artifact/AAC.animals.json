@@ -1,0 +1,420 @@
+[{
+  "_id": {
+    "$oid": "69267041b3910a8482544493"
+  },
+  "age_upon_outcome": "2",
+  "animal_id": "44",
+  "animal_type": "dog",
+  "breed": "German Shephard",
+  "age_upon_outcome_in_weeks": "104",
+  "color": "Brown",
+  "date_of_birth": "06-04-2023",
+  "datetime": "15:30",
+  "location_lat": "30.270998376287",
+  "location_long": "-97.5923916912772",
+  "monthyear": "07-2025",
+  "name": "Bella",
+  "outcome_subtype": "foster",
+  "outcome_type": "Adoption",
+  "sex_upon_outcome": "Spayed Female"
+},
+{
+  "_id": {
+    "$oid": "69267041b3910a8482544494"
+  },
+  "age_upon_outcome": "3",
+  "animal_id": "45",
+  "animal_type": "cat",
+  "breed": "Siamese",
+  "age_upon_outcome_in_weeks": "156",
+  "color": "Cream",
+  "date_of_birth": "02-11-2022",
+  "datetime": "10:15",
+  "location_lat": "34.052235",
+  "location_long": "-118.243683",
+  "monthyear": "11-2025",
+  "name": "Luna",
+  "outcome_subtype": "foster",
+  "outcome_type": "Adoption",
+  "sex_upon_outcome": "Neutered Male"
+},
+{
+  "_id": {
+    "$oid": "69267041b3910a8482544495"
+  },
+  "age_upon_outcome": "1",
+  "animal_id": "46",
+  "animal_type": "dog",
+  "breed": "Labrador Retriever",
+  "age_upon_outcome_in_weeks": "52",
+  "color": "Black",
+  "date_of_birth": "07-12-2024",
+  "datetime": "14:45",
+  "location_lat": "40.712776",
+  "location_long": "-74.005974",
+  "monthyear": "11-2025",
+  "name": "Max",
+  "outcome_subtype": "transfer",
+  "outcome_type": "Adoption",
+  "sex_upon_outcome": "Intact Male"
+},
+{
+  "_id": {
+    "$oid": "69267041b3910a8482544496"
+  },
+  "age_upon_outcome": "2",
+  "animal_id": "47",
+  "animal_type": "cat",
+  "breed": "Maine Coon",
+  "age_upon_outcome_in_weeks": "104",
+  "color": "Brown Tabby",
+  "date_of_birth": "03-05-2023",
+  "datetime": "09:30",
+  "location_lat": "41.878113",
+  "location_long": "-87.629799",
+  "monthyear": "11-2025",
+  "name": "Milo",
+  "outcome_subtype": "return_to_owner",
+  "outcome_type": "Return",
+  "sex_upon_outcome": "Spayed Female"
+},
+{
+  "_id": {
+    "$oid": "69267041b3910a8482544497"
+  },
+  "age_upon_outcome": "5",
+  "animal_id": "48",
+  "animal_type": "dog",
+  "breed": "Beagle",
+  "age_upon_outcome_in_weeks": "260",
+  "color": "Tri-color",
+  "date_of_birth": "06-09-2020",
+  "datetime": "16:00",
+  "location_lat": "29.760427",
+  "location_long": "-95.369804",
+  "monthyear": "11-2025",
+  "name": "Charlie",
+  "outcome_subtype": "foster",
+  "outcome_type": "Adoption",
+  "sex_upon_outcome": "Spayed Female"
+},
+{
+  "_id": {
+    "$oid": "69267041b3910a8482544498"
+  },
+  "age_upon_outcome": "4",
+  "animal_id": "49",
+  "animal_type": "cat",
+  "breed": "Persian",
+  "age_upon_outcome_in_weeks": "208",
+  "color": "White",
+  "date_of_birth": "10-01-2021",
+  "datetime": "11:20",
+  "location_lat": "39.739236",
+  "location_long": "-104.990251",
+  "monthyear": "11-2025",
+  "name": "Chloe",
+  "outcome_subtype": "transfer",
+  "outcome_type": "Adoption",
+  "sex_upon_outcome": "Intact Female"
+},
+{
+  "_id": {
+    "$oid": "69267041b3910a8482544499"
+  },
+  "age_upon_outcome": "6",
+  "animal_id": "50",
+  "animal_type": "dog",
+  "breed": "Golden Retriever",
+  "age_upon_outcome_in_weeks": "312",
+  "color": "Golden",
+  "date_of_birth": "05-05-2019",
+  "datetime": "13:10",
+  "location_lat": "33.448376",
+  "location_long": "-112.074036",
+  "monthyear": "11-2025",
+  "name": "Buddy",
+  "outcome_subtype": "foster",
+  "outcome_type": "Adoption",
+  "sex_upon_outcome": "Neutered Male"
+},
+{
+  "_id": {
+    "$oid": "69267041b3910a8482544500"
+  },
+  "age_upon_outcome": "2",
+  "animal_id": "51",
+  "animal_type": "cat",
+  "breed": "Ragdoll",
+  "age_upon_outcome_in_weeks": "104",
+  "color": "Gray",
+  "date_of_birth": "12-11-2022",
+  "datetime": "12:00",
+  "location_lat": "47.606209",
+  "location_long": "-122.332069",
+  "monthyear": "11-2025",
+  "name": "Simba",
+  "outcome_subtype": "return_to_owner",
+  "outcome_type": "Return",
+  "sex_upon_outcome": "Neutered Male"
+},
+{
+  "_id": {
+    "$oid": "69267041b3910a8482544501"
+  },
+  "age_upon_outcome": "1",
+  "animal_id": "52",
+  "animal_type": "dog",
+  "breed": "Boxer",
+  "age_upon_outcome_in_weeks": "52",
+  "color": "Brindle",
+  "date_of_birth": "09-10-2024",
+  "datetime": "15:00",
+  "location_lat": "32.715736",
+  "location_long": "-117.161087",
+  "monthyear": "11-2025",
+  "name": "Rocky",
+  "outcome_subtype": "foster",
+  "outcome_type": "Adoption",
+  "sex_upon_outcome": "Spayed Female"
+},
+{
+  "_id": {
+    "$oid": "69267041b3910a8482544502"
+  },
+  "age_upon_outcome": "3",
+  "animal_id": "53",
+  "animal_type": "cat",
+  "breed": "Bengal",
+  "age_upon_outcome_in_weeks": "156",
+  "color": "Brown Spotted",
+  "date_of_birth": "04-07-2022",
+  "datetime": "08:45",
+  "location_lat": "39.952583",
+  "location_long": "-75.165222",
+  "monthyear": "11-2025",
+  "name": "Nala",
+  "outcome_subtype": "transfer",
+  "outcome_type": "Adoption",
+  "sex_upon_outcome": "Spayed Female"
+},
+{
+  "_id": {
+    "$oid": "69267041b3910a8482544503"
+  },
+  "age_upon_outcome": "5",
+  "animal_id": "54",
+  "animal_type": "dog",
+  "breed": "German Shephard",
+  "age_upon_outcome_in_weeks": "260",
+  "color": "Black & Tan",
+  "date_of_birth": "03-08-2020",
+  "datetime": "17:30",
+  "location_lat": "29.424122",
+  "location_long": "-98.493629",
+  "monthyear": "11-2025",
+  "name": "Duke",
+  "outcome_subtype": "foster",
+  "outcome_type": "Adoption",
+  "sex_upon_outcome": "Neutered Male"
+},
+{
+  "_id": {
+    "$oid": "69267041b3910a8482544504"
+  },
+  "age_upon_outcome": "2",
+  "animal_id": "55",
+  "animal_type": "cat",
+  "breed": "Sphynx",
+  "age_upon_outcome_in_weeks": "104",
+  "color": "Pink",
+  "date_of_birth": "01-03-2023",
+  "datetime": "11:15",
+  "location_lat": "36.169941",
+  "location_long": "-115.139832",
+  "monthyear": "11-2025",
+  "name": "Whiskers",
+  "outcome_subtype": "transfer",
+  "outcome_type": "Adoption",
+  "sex_upon_outcome": "Intact Male"
+},
+{
+  "_id": {
+    "$oid": "69267041b3910a8482544505"
+  },
+  "age_upon_outcome": "3",
+  "animal_id": "56",
+  "animal_type": "dog",
+  "breed": "Shiba Inu",
+  "age_upon_outcome_in_weeks": "156",
+  "color": "Red",
+  "date_of_birth": "06-02-2022",
+  "datetime": "14:20",
+  "location_lat": "25.761681",
+  "location_long": "-80.191788",
+  "monthyear": "11-2025",
+  "name": "Haru",
+  "outcome_subtype": "foster",
+  "outcome_type": "Adoption",
+  "sex_upon_outcome": "Neutered Male"
+},
+{
+  "_id": {
+    "$oid": "69267041b3910a8482544506"
+  },
+  "age_upon_outcome": "1",
+  "animal_id": "57",
+  "animal_type": "cat",
+  "breed": "Scottish Fold",
+  "age_upon_outcome_in_weeks": "52",
+  "color": "Gray",
+  "date_of_birth": "08-15-2024",
+  "datetime": "09:50",
+  "location_lat": "39.768403",
+  "location_long": "-86.158068",
+  "monthyear": "11-2025",
+  "name": "Mochi",
+  "outcome_subtype": "return_to_owner",
+  "outcome_type": "Return",
+  "sex_upon_outcome": "Spayed Female"
+},
+{
+  "_id": {
+    "$oid": "69267041b3910a8482544507"
+  },
+  "age_upon_outcome": "4",
+  "animal_id": "58",
+  "animal_type": "dog",
+  "breed": "Corgi",
+  "age_upon_outcome_in_weeks": "208",
+  "color": "Fawn",
+  "date_of_birth": "05-20-2021",
+  "datetime": "13:35",
+  "location_lat": "33.749001",
+  "location_long": "-84.387978",
+  "monthyear": "11-2025",
+  "name": "Penny",
+  "outcome_subtype": "foster",
+  "outcome_type": "Adoption",
+  "sex_upon_outcome": "Spayed Female"
+},
+{
+  "_id": {
+    "$oid": "69267041b3910a8482544508"
+  },
+  "age_upon_outcome": "2",
+  "animal_id": "59",
+  "animal_type": "cat",
+  "breed": "Abyssinian",
+  "age_upon_outcome_in_weeks": "104",
+  "color": "Ruddy",
+  "date_of_birth": "11-11-2022",
+  "datetime": "10:10",
+  "location_lat": "42.360082",
+  "location_long": "-71.058880",
+  "monthyear": "11-2025",
+  "name": "Gizmo",
+  "outcome_subtype": "transfer",
+  "outcome_type": "Adoption",
+  "sex_upon_outcome": "Neutered Male"
+},
+{
+  "_id": {
+    "$oid": "69267041b3910a8482544509"
+  },
+  "age_upon_outcome": "3",
+  "animal_id": "60",
+  "animal_type": "dog",
+  "breed": "Dalmatian",
+  "age_upon_outcome_in_weeks": "156",
+  "color": "White & Black",
+  "date_of_birth": "07-30-2022",
+  "datetime": "12:50",
+  "location_lat": "45.512794",
+  "location_long": "-122.679565",
+  "monthyear": "11-2025",
+  "name": "Spot",
+  "outcome_subtype": "foster",
+  "outcome_type": "Adoption",
+  "sex_upon_outcome": "Intact Male"
+},
+{
+  "_id": {
+    "$oid": "69267041b3910a8482544510"
+  },
+  "age_upon_outcome": "5",
+  "animal_id": "61",
+  "animal_type": "cat",
+  "breed": "Russian Blue",
+  "age_upon_outcome_in_weeks": "260",
+  "color": "Blue",
+  "date_of_birth": "02-02-2020",
+  "datetime": "11:40",
+  "location_lat": "39.103119",
+  "location_long": "-84.512016",
+  "monthyear": "11-2025",
+  "name": "Smokey",
+  "outcome_subtype": "transfer",
+  "outcome_type": "Adoption",
+  "sex_upon_outcome": "Spayed Female"
+},
+{
+  "_id": {
+    "$oid": "69267041b3910a8482544511"
+  },
+  "age_upon_outcome": "1",
+  "animal_id": "62",
+  "animal_type": "dog",
+  "breed": "Husky",
+  "age_upon_outcome_in_weeks": "52",
+  "color": "Gray & White",
+  "date_of_birth": "10-22-2024",
+  "datetime": "16:10",
+  "location_lat": "36.162664",
+  "location_long": "-86.781602",
+  "monthyear": "11-2025",
+  "name": "Loki",
+  "outcome_subtype": "return_to_owner",
+  "outcome_type": "Return",
+  "sex_upon_outcome": "Neutered Male"
+},
+{
+  "_id": {
+    "$oid": "69267041b3910a8482544512"
+  },
+  "age_upon_outcome": "2",
+  "animal_id": "63",
+  "animal_type": "cat",
+  "breed": "Oriental Shorthair",
+  "age_upon_outcome_in_weeks": "104",
+  "color": "Black",
+  "date_of_birth": "06-18-2023",
+  "datetime": "09:25",
+  "location_lat": "32.776665",
+  "location_long": "-96.796989",
+  "monthyear": "11-2025",
+  "name": "Shadow",
+  "outcome_subtype": "foster",
+  "outcome_type": "Adoption",
+  "sex_upon_outcome": "Spayed Female"
+},
+{
+  "_id": {
+    "$oid": "69267041b3910a8482544513"
+  },
+  "age_upon_outcome": "4",
+  "animal_id": "64",
+  "animal_type": "dog",
+  "breed": "Doberman",
+  "age_upon_outcome_in_weeks": "208",
+  "color": "Black & Tan",
+  "date_of_birth": "09-05-2021",
+  "datetime": "15:55",
+  "location_lat": "39.961178",
+  "location_long": "-82.998795",
+  "monthyear": "11-2025",
+  "name": "Zeus",
+  "outcome_subtype": "transfer",
+  "outcome_type": "Adoption",
+  "sex_upon_outcome": "Intact Male"
+}]

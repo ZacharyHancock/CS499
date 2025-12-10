@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#E3F2FD">
+
+    <!-- Title of the screen is weight progress as this screen displays all weight entries -->
+    <TextView
+        android:id="@+id/dataHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/weight_progress"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#0277BD"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="40dp" />
+
+    <!-- Forgot to add settings button, so this will be used to navigate to the SMS permissions screen-->
+    <Button
+        android:id="@+id/settingsButton"
+        android:layout_width="81dp"
+        android:layout_height="40dp"
+        android:text="@string/settings"
+        android:backgroundTint="#0288D1"
+        android:textColor="#FFFFFF"
+        android:textSize="11sp"
+        app:layout_constraintTop_toBottomOf="@id/dataHeader"
+        app:layout_constraintStart_toStartOf="parent"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"/>
+
+    <!-- Simple data entry text box that will add to the database when the logic is implemented -->
+    <EditText
+        android:id="@+id/weightEntry"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:autofillHints="999 lbs"
+        android:inputType="numberDecimal"
+        app:layout_constraintTop_toBottomOf="@id/dataHeader"
+        app:layout_constraintRight_toLeftOf="@id/addEntryButton"
+        android:hint="@string/enter_weight" />
+
+    <!-- Simple data entry button that will add to the database when the logic is implemented -->
+    <Button
+        android:id="@+id/addEntryButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_entry"
+        android:backgroundTint="#0288D1"
+        android:textColor="#FFFFFF"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        app:layout_constraintTop_toBottomOf="@id/dataHeader"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp" />
+
+<!-- Recycler view used ot host the data from the database, uses a cardView for formatting of the recycler-->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/dataRecyclerView"
+        android:layout_width="0dp"
+        android:layout_height="300dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@android:color/white"
+        android:clipToPadding="false"
+        android:padding="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/addEntryButton" />
+
+
+    <!-- Line Chart for data visualization -->
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/lineChart"
+        android:layout_width="375dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/white"
+        app:layout_constraintTop_toBottomOf="@id/dataRecyclerView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <!-- Prediction text displays predicted date to reach goal -->
+    <TextView
+        android:id="@+id/textGoalPrediction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="@string/predicted_goal_date"
+        android:textSize="18sp"
+        android:paddingTop="16dp"
+        android:textColor="@android:color/black"
+        app:layout_constraintTop_toBottomOf="@id/lineChart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <!-- Edit goal allow user to input goal weight -->
+    <EditText
+        android:id="@+id/editGoal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_weight"
+        app:layout_constraintTop_toBottomOf="@id/textGoalPrediction"
+        app:layout_constraintStart_toStartOf="@id/textGoalPrediction"
+        />
+
+    <!-- Add goal button tries to insert the goal weight into db -->
+    <Button
+        android:id="@+id/addGoalButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_goal"
+        android:backgroundTint="#0288D1"
+        android:textColor="#FFFFFF"
+        app:layout_constraintTop_toBottomOf="@id/textGoalPrediction"
+        app:layout_constraintStart_toEndOf="@id/editGoal"
+         />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

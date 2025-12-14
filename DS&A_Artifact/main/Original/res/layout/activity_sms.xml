@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3F2FD">
+
+    <!-- Title of the current screen, SMS notifs-->
+    <TextView
+        android:id="@+id/smsHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SMS Notifications"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#0277BD"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="60dp" />
+
+    <!-- Blurb that tells user why enabling SMS is important for the apps goals-->
+    <TextView
+        android:id="@+id/smsBlurb"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="WeightWare can send you SMS reminders for daily weigh-ins, goal progress updates, or goal achievements. To enable this, we need your permission to send text messages."
+        android:textSize="16sp"
+        android:textColor="#555555"
+        android:padding="16dp"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/smsHeader"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp" />
+
+    <!-- Status text that tells user what the current permissions are set to-->
+    <TextView
+        android:id="@+id/permissionStatusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Permission not granted"
+        android:textSize="16sp"
+        android:textColor="#F44336"
+        android:textStyle="italic"
+        app:layout_constraintTop_toBottomOf="@id/smsBlurb"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp" />
+
+    <!-- Button to toggle SMS permissions, switches based on status of SMS being enabled or not -->
+    <Button
+        android:id="@+id/requestSmsPermissionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grant SMS Permission"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#0288D1"
+        app:layout_constraintTop_toBottomOf="@id/permissionStatusText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp" />
+
+    <!-- Used to prompt user input for their phone number for SMS texting-->
+    <EditText
+        android:id="@+id/editPhoneNumber"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:hint="Phone #"
+        app:layout_constraintTop_toBottomOf="@id/requestSmsPermissionButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
